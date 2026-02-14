@@ -1,5 +1,5 @@
 #!/bin/bash
-# Test task script for activeflow
+# Test task script for adaptiveflow
 
 python train/test_task.py \
     --model=${MODEL_PATH} \

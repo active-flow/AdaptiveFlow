@@ -4,11 +4,11 @@ with open('requirements.txt', 'r') as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="activeflow",
+    name="adaptiveflow",
     version="0.1",
     packages=find_packages(),
     install_requires=requirements,
-    description="activeflow",
+    description="adaptiveflow",
     author="Active Flow",
-    author_email="activeflow@mails.xxx.edu.cn",
+    author_email="adaptiveflow@mails.xxx.edu.cn",
 )
